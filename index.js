@@ -6,7 +6,7 @@ const uat = 'mongodb+srv://Iram:Iram@cluster0-eozbj.mongodb.net/test?retryWrites
 const local = 'mongodb://localhost:27017/jobs-db'
 
 
-//mongoose.set('port', PORT)
+mongoose.set('port', PORT)
 mongoose.connect(uat, (err, res)=>{
     if(err) return console.log(`Error connecting to the database ${err}`)
 
