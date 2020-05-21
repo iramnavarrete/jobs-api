@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const app = require('./app')
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3000
 
 const uat = 'mongodb+srv://Iram:Iram@cluster0-eozbj.mongodb.net/test?retryWrites=true&w=majority'
 const local = 'mongodb://localhost:27017/jobs-db'
